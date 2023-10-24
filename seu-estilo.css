@@ -1,0 +1,56 @@
+body {
+    background: url('noite.jpg') no-repeat;
+    background-size: cover;
+    color: #FFD700; /* Amarelo */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/ceu-noturno-com-estrelas-e-via-lactea_89378-116.jpg?size=626&ext=jpg&ga=GA1.1.434523131.1698182650&semt=ais');
+    z-index: -1;
+}
+
+#content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button.green {
+    background-color: #27AE60; /* Verde */
+    color: #fff;
+}
+
+button.brown {
+    background-color: #964B00; /* Castanho */
+    color: #fff;
+}
+
+#mensagem {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#coracao {
+    font-size: 48px;
+    color: #e74c3c; /* Vermelho escuro */
+}
